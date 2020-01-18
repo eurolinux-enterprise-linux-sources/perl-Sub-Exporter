@@ -3,7 +3,7 @@
 
 Name:		perl-Sub-Exporter
 Version:	0.986
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Sophisticated exporter for custom-built routines
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -93,6 +93,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Sub::Exporter::Util.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.986-2
+- Mass rebuild 2013-12-27
+
 * Sat Jun 15 2013 Paul Howarth <paul@city-fan.org> - 0.986-1
 - Update to 0.986 (typo fixes in docs)
 - Use metacpan URLs
